@@ -1,0 +1,36 @@
+body{
+    margin-top: 250px;
+    margin-left: 400px;
+    
+   
+}
+.boss{ 
+    width: 100%;
+  display: table-cell;
+    margin-top: 400px;
+}
+.boss2{
+}
+.boss div{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff; 
+   float: left;   
+}
+.boss2 div{
+    width: 100px;
+    height: 100px;
+    display: table-cell;
+    border: 5px solid #fff; 
+    float: left;
+}
+body div:hover{
+    background-color: green;
+}
+ div:nth-child(odd){
+    background-color: yellow;
+}
+div:nth-child(even){
+    background-color: grey;
+}
+

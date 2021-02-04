@@ -1,0 +1,137 @@
+
+
+/***** HEADER*****/
+body{
+    max-width: 100%;
+}
+header{
+    border: 1px solid red;
+    max-width: 100%;
+}
+.head_body{
+    max-width: 100%;
+}
+
+.head_icon{
+    width: 98%;
+    display: inline-flex;
+}
+.img1{
+    margin-left: 85%;
+}
+.head_menu{
+    text-align: center;
+}
+.head_title{
+    color: green;
+ font-size: 90px; 
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.head_title{
+    padding:20px 20px 20px 50px;
+}
+.head_footer{
+    margin-left: 75%;
+    padding: 30px 10px 30px 10px;
+}
+/***** ARTICLE*****/
+.article_body{
+    max-width: 100%;
+    max-height: 600px;
+    display: flex;
+}
+.article_column1, .article_column2, .article_column3{
+    flex: 0 1 33.33%;
+    border: 1px solid red;
+    display: flex;
+}
+.article_column1{
+    background-color: blueviolet;
+    font-size: 30px;
+    color: white;   
+}
+.article_column1 p::first-letter{
+    font-size: 55px;
+}
+.article_column2{
+    background-color: green; 
+    text-align: center;  
+}
+div>span>ol{
+   margin-top: 50%; 
+}
+div>span>ol>li{
+    font-size: 26px;
+    color: yellow;
+    list-style-type: disc;
+}
+.article_column3{
+    background-color: palegreen;
+}
+.article_column3 li{
+    color: black;
+    font-size: 25px;
+    list-style-type: none;
+}
+.article_column3 li:before{
+    content:"\2717";
+}
+/*****FOOTER*****/
+.footer_body{
+    max-width: 100%;
+    min-height: 300px;
+    display: flex;
+    border: 1px solid red;
+}
+.image img{
+    margin: 40px 0 0 40px;
+   max-width:100%;
+    max-height:240px;
+}
+.info{
+    border: 1px solid blueviolet;
+    background-color: gray;
+    max-width: 450px;
+    margin: 100px 0 60px 0 ;
+    margin-left: 45%;
+}
+@media (max-width: 1200px){
+    body{
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px){
+    body{
+        max-width: 750px;
+    }
+    .article_body{
+        flex-direction: column;
+        
+    }
+    .footer_body{
+        margin-top: 101%;
+    }
+    .img1{
+        margin-left: 65%;
+    }
+    
+}
+@media (max-width: 767px){
+    body{
+        max-width: 575px;
+    }
+    .img1{
+        margin-left: 35%;
+    }
+    .head_footer{
+        margin-left: 50%;
+    }
+    .head_title{
+        font-size: 50px;
+    }
+}

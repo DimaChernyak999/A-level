@@ -1,0 +1,37 @@
+body{
+    
+    
+}
+div{
+    border-style: solid;
+    border-color: red;
+    background-color: bisque;
+    width: 75%;
+    float: left;
+}
+img{
+    width: 440px;
+    height: 250px;
+    padding: 10px 10px 0 10px;
+    display: flex;
+    float: left;
+}
+.last{
+  font-size: 22px;
+    display: flex;
+    
+    float: initial;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+p{
+    font-size: 18px;
+}
+.head{
+       display: block; 
+    font-size: 30px;  
+}
+.text{
+   display: block;
+    
+}

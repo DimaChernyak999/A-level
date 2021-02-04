@@ -1,0 +1,35 @@
+body{
+    
+    margin-top: 20%; 
+}
+.boss{
+    
+}
+button{
+    width: 28px;
+  height: 28px;
+  border: 1px solid red;
+  border-radius: 50%;
+  background: mistyrose;
+}
+.pages{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 40%;
+    
+}
+a{
+    padding: 8px;
+}
+.but{
+   display: inline-flex; 
+}
+.but1{
+    display: inline-flex;
+    margin-left: 39%;
+}
+div button:hover{
+    
+    cursor: pointer; 
+}
+

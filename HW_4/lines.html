@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<style > 
+     /* .line1, .line2, .line3, .line4, .line5, .line6, .line7{
+         width: 800px;
+         height: 20px;
+         border: 2px solid black;
+         margin-top:9px ;
+         background-color: chocolate;
+         transition-duration: 2s;
+     } */
+     .content{
+         width: 100%;
+         height: 600px;
+     }
+     .line1{
+        width: 400px;
+         height: 20px;
+         border: 2px solid black;
+         margin-top:9px ;
+         background-color: chocolate;
+         transition-duration: 0.5s; 
+         animation-name: lines;
+     }
+     .line1:hover {
+        transform-origin:  left;
+
+        transition-property: 2s;
+        background-color: blueviolet;
+        transform: translateX(-400px);
+     }
+     
+     .content:hover .line1 {
+         width: 800px; 
+     }
+     @keyframes line_hov {
+         from{
+             left: 0px;
+         }
+         to{
+            left: 400px;
+         }
+     }
+  @keyframes lines{
+      0%{
+        left: 0;
+      }
+      100%{
+      left: 800px;
+      }
+  }   
+</style>
+</head>
+<body>
+    <div class="content">
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+    </div>
+
+</body>
+</html>
